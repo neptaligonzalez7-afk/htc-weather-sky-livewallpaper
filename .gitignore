@@ -1,0 +1,22 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+*.swp
+*~
+
+# Build outputs
+*.apk
+weather-product/unknown/classes.dex
+stub-classes/
+weather-classes/
+weather-out/
+signed-weather-sky/
+weather-sky-*.apk
+_apk_extract/
+
+# Secrets
+.env
+.env.*

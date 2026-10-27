@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HTC Weather Sky</string>
+    <string name="company">HTC Corporation</string>
+    <string name="weather_video_name">HTC Weather Sky</string>
+    <string name="weather_video_desc">HTC Sense sky videos from Open-Meteo (standalone; needs Htc Weather Animation assets).</string>
+    <string name="settings_activity_name">Weather Sky location</string>
+</resources>

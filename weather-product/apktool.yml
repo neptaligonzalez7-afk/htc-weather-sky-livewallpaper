@@ -1,0 +1,19 @@
+version: 3.0.3
+apkFileName: HtcWeatherSkyLiveWallpaper.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 24
+  targetSdkVersion: 36
+versionInfo:
+  versionCode: 106
+  versionName: 1.1.5-aspect-crop-gl
+resourcesInfo:
+  packageId: 127
+  keepRawValues: true
+doNotCompress:
+- arsc
+- dex
+- png
+resourcesAreCompressed: false

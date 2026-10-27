@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wallpaper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:author="@string/company"
+    android:description="@string/weather_video_desc"
+    android:settingsActivity="com.htc.android.wallpaper.weather.WeatherLwpSettingsActivity"
+    android:thumbnail="@drawable/bokeh_wallpaper_thumbnail" />

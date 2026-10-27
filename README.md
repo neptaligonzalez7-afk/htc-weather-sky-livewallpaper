@@ -9,6 +9,16 @@
 - [HTC Sense Bokeh Live Wallpaper](https://github.com/neptaligonzalez7-afk/htc-sense-live-wallpaper) — Sense-style bokeh background (separate package).
 - [HTC Weather Flip Clock](https://github.com/neptaligonzalez7-afk/htc-weather-flip-clock) — 4×2 flip clock widget with Open-Meteo.
 
+## Screenshots
+
+Preview frames from each sky clip (MP4s ship in the video companion, not in this repo):
+
+| Sunny | Rain (day) | Thunder (night) | Snow (day) |
+|-------|------------|-----------------|------------|
+| ![Sunny sky](./screenshots/portrait/weather_sunny.jpg) | ![Rain day](./screenshots/portrait/weather_rain_day.jpg) | ![Thunder night](./screenshots/portrait/weather_thunderstorm_night.jpg) | ![Snow day](./screenshots/portrait/weather_snow_day.jpg) |
+
+**[Full gallery — all 36 portrait + landscape clips](./screenshots/README.md)**
+
 ## Download
 
 Get the latest APK from **[Releases](https://github.com/neptaligonzalez7-afk/htc-weather-sky-livewallpaper/releases)**.

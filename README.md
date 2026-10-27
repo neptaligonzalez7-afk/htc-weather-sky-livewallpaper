@@ -25,32 +25,25 @@ Get the latest APK from **[Releases](https://github.com/neptaligonzalez7-afk/htc
 
 | Release | File | versionCode | versionName |
 |---------|------|-------------|-------------|
-| **Latest** | `HTC-Weather-Sky-LiveWallpaper.apk` | **106** | `1.1.5-aspect-crop-gl` |
+| **Latest** | `HTC-Weather-Sky-LiveWallpaper.apk` | **107** | `1.2.0-bundled-sky-video` |
 
 Package: **`com.htc.android.wallpaper.weather`** (does not replace Sense Bokeh or the flip clock).
+
+**One APK (~146 MB)** — sky MP4 loops are **bundled inside** the live wallpaper app. You do **not** need a separate `com.htc.htcweatherassets` install on **v1.2.0+**.
+
+> Sky video loops are **HTC Weather media** embedded at build time. Not affiliated with HTC.
 
 ## Requirements
 
 - Android **7.0+** (API 24), **targetSdk 36**
 - Live wallpaper support (One UI, Nova, etc.)
-- **Video companion** app **`com.htc.htcweatherassets`** — contains the sky MP4 resources (large download, install once)
-
-### Video companion
-
-The wallpaper app is small; the **sky videos** ship in HTC’s resource package:
-
-1. Obtain **HtcWeatherVideo** / `com.htc.htcweatherassets` (community mirrors often host `HtcWeatherVideo.apk`; ~146 MB).
-2. Install that APK **before or after** Weather Sky.
-3. Without it, the wallpaper runs but **cannot play** sky clips (logcat will mention missing `com.htc.htcweatherassets`).
-
-This repo does **not** redistribute HTC’s video APK due to size and licensing.
+- ~**150 MB** free storage for the install
 
 ## Install
 
-1. Install **video companion** (`com.htc.htcweatherassets`) if needed.
-2. Download **HTC Weather Sky** from **Releases** and install.
-3. **Wallpapers → Live wallpapers → HTC Weather Sky** (or launcher picker → gear).
-4. Set location:
+1. Download **HTC Weather Sky** from **Releases** and install (single APK).
+2. **Wallpapers → Live wallpapers → HTC Weather Sky** (or launcher picker → gear).
+3. Set location:
    - **Automatic (GPS / network)** — allow location when prompted.
    - **Manual** — type a city → **Search cities** → **tap a row** in the list (saves and syncs immediately).
 
@@ -67,7 +60,7 @@ Open **Weather Sky location** from the app drawer or wallpaper settings gear any
 
 | Symptom | What to try |
 |---------|-------------|
-| Black or no sky | Install **`com.htc.htcweatherassets`**; re-select the wallpaper. |
+| Black or no sky | Use **v1.2.0+** bundled APK; re-select the wallpaper. |
 | Stretched / squashed video | Use **v1.1.5+** (`1.1.5-aspect-crop-gl`). |
 | Wrong city | Manual mode: search and **tap** a list result (typing alone does not geocode). |
 | Settings seem idle | Check status text; wait for “Syncing…” / toast after tap. |
@@ -86,7 +79,7 @@ See [LICENSE](./LICENSE). HTC Sense / Weather names and sky video assets are tra
 
 ## Reporting issues
 
-Open a **GitHub Issue** with device model, Android version, launcher, APK **versionName**, and whether **`com.htc.htcweatherassets`** is installed.
+Open a **GitHub Issue** with device model, Android version, launcher, and APK **versionName**.
 
 ## Support (optional)
 

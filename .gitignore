@@ -11,6 +11,7 @@ Desktop.ini
 *.apk
 weather-product/unknown/classes.dex
 weather-product/build/
+weather-product/res/raw/*.mp4
 stub-classes/
 weather-classes/
 weather-out/

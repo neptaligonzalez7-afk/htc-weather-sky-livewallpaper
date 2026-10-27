@@ -9,6 +9,9 @@ foreach ($jar in @("apktool.jar", "uber-apk-signer.jar", "r8.jar", "json.jar")) 
     }
 }
 
+& powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "sync-weather-raw.ps1")
+if ($LASTEXITCODE -ne 0) { throw "sync-weather-raw failed" }
+
 & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot "compile.ps1")
 if ($LASTEXITCODE -ne 0) { throw "compile failed" }
 

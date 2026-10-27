@@ -7,8 +7,8 @@ sdkInfo:
   minSdkVersion: 24
   targetSdkVersion: 36
 versionInfo:
-  versionCode: 106
-  versionName: 1.1.5-aspect-crop-gl
+  versionCode: 107
+  versionName: 1.2.0-bundled-sky-video
 resourcesInfo:
   packageId: 127
   keepRawValues: true
@@ -16,4 +16,5 @@ doNotCompress:
 - arsc
 - dex
 - png
+- mp4
 resourcesAreCompressed: false

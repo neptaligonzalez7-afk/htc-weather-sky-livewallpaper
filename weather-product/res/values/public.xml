@@ -1,9 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <public type="drawable" name="bokeh_wallpaper_thumbnail" id="0x7f020000" />
     <public type="drawable" name="wallpaper_icon" id="0x7f020001" />
     <public type="layout" name="city_list_item" id="0x7f030000" />
     <public type="xml" name="weather_video" id="0x7f040000" />
+    <public type="raw" name="weather_clear" id="0x7f050000" />
+    <public type="raw" name="weather_cloudy_day" id="0x7f050001" />
+    <public type="raw" name="weather_cloudy_night" id="0x7f050002" />
+    <public type="raw" name="weather_fog_day" id="0x7f050003" />
+    <public type="raw" name="weather_fog_night" id="0x7f050004" />
+    <public type="raw" name="weather_hot" id="0x7f050005" />
+    <public type="raw" name="weather_l_clear" id="0x7f050006" />
+    <public type="raw" name="weather_l_cloudy_day" id="0x7f050007" />
+    <public type="raw" name="weather_l_cloudy_night" id="0x7f050008" />
+    <public type="raw" name="weather_l_fog_day" id="0x7f050009" />
+    <public type="raw" name="weather_l_fog_night" id="0x7f05000a" />
+    <public type="raw" name="weather_l_hot" id="0x7f05000b" />
+    <public type="raw" name="weather_l_partly_cloud_day" id="0x7f05000c" />
+    <public type="raw" name="weather_l_partly_cloud_night" id="0x7f05000d" />
+    <public type="raw" name="weather_l_partly_sunny" id="0x7f05000e" />
+    <public type="raw" name="weather_l_rain_day" id="0x7f05000f" />
+    <public type="raw" name="weather_l_rain_night" id="0x7f050010" />
+    <public type="raw" name="weather_l_snow_day" id="0x7f050011" />
+    <public type="raw" name="weather_l_snow_night" id="0x7f050012" />
+    <public type="raw" name="weather_l_sunny" id="0x7f050013" />
+    <public type="raw" name="weather_l_thunderstorm_day" id="0x7f050014" />
+    <public type="raw" name="weather_l_thunderstorm_night" id="0x7f050015" />
+    <public type="raw" name="weather_l_windy_day" id="0x7f050016" />
+    <public type="raw" name="weather_l_windy_night" id="0x7f050017" />
+    <public type="raw" name="weather_partly_cloud_day" id="0x7f050018" />
+    <public type="raw" name="weather_partly_cloud_night" id="0x7f050019" />
+    <public type="raw" name="weather_partly_sunny" id="0x7f05001a" />
+    <public type="raw" name="weather_rain_day" id="0x7f05001b" />
+    <public type="raw" name="weather_rain_night" id="0x7f05001c" />
+    <public type="raw" name="weather_snow_day" id="0x7f05001d" />
+    <public type="raw" name="weather_snow_night" id="0x7f05001e" />
+    <public type="raw" name="weather_sunny" id="0x7f05001f" />
+    <public type="raw" name="weather_thunderstorm_day" id="0x7f050020" />
+    <public type="raw" name="weather_thunderstorm_night" id="0x7f050021" />
+    <public type="raw" name="weather_windy_day" id="0x7f050022" />
+    <public type="raw" name="weather_windy_night" id="0x7f050023" />
     <public type="string" name="app_name" id="0x7f060000" />
     <public type="string" name="company" id="0x7f060001" />
     <public type="string" name="weather_video_name" id="0x7f060002" />

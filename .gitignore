@@ -10,6 +10,7 @@ Desktop.ini
 # Build outputs
 *.apk
 weather-product/unknown/classes.dex
+weather-product/build/
 stub-classes/
 weather-classes/
 weather-out/
